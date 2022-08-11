@@ -29,7 +29,8 @@ namespace SnoopRatt.App.Entities
         static User()
         {
             var fonts = new FontCollection();
-            fonts.AddSystemFonts();
+            fonts.Add("Content/arial.ttf");
+            fonts.Add("Content/seguiemj.ttf");
 
             HeaderFont = fonts.Get("Arial").CreateFont(70);
             SubHeaderFont = fonts.Get("Segoe UI Emoji").CreateFont(22);
