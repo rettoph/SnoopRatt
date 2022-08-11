@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnoopRatt.App", "SnoopRatt.App\SnoopRatt.App.csproj", "{ABEE1B82-FB0E-436C-912E-E1AE90ABF299}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnoopRatt.QuickChart", "SnoopRatt.QuickChart\SnoopRatt.QuickChart.csproj", "{5A2645C8-1FA7-4912-BEF1-F8C4128053BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABEE1B82-FB0E-436C-912E-E1AE90ABF299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABEE1B82-FB0E-436C-912E-E1AE90ABF299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABEE1B82-FB0E-436C-912E-E1AE90ABF299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABEE1B82-FB0E-436C-912E-E1AE90ABF299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2645C8-1FA7-4912-BEF1-F8C4128053BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2645C8-1FA7-4912-BEF1-F8C4128053BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2645C8-1FA7-4912-BEF1-F8C4128053BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2645C8-1FA7-4912-BEF1-F8C4128053BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90A9D25E-7475-4F86-B43C-A36E38A4DC35}
+	EndGlobalSection
+EndGlobal

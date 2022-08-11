@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Content\header.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Content\header.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="3.7.2" />
+    <PackageReference Include="Discord.Net.Commands" Version="3.7.2" />
+    <PackageReference Include="Discord.Net.WebSocket" Version="3.7.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.0-preview.6.22324.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.1.3" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SnoopRatt.QuickChart\SnoopRatt.QuickChart.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Config.development.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

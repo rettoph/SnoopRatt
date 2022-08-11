@@ -1,0 +1,17 @@
+{
+  "Discord": {
+    "AppId": "",
+    "Key": "",
+    "ClientId": "",
+    "Token": "",
+    "Permissions": "8",
+    "Prefixes": [ "!420 ", "!!", "420!" ]
+  },
+  "Database": {
+    "Path": ""
+  },
+  "Paginators": {
+    "RefreshRate": 10000,
+    "IdleRate": 60000
+  }
+}
