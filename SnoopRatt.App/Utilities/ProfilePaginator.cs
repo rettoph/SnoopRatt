@@ -125,7 +125,7 @@ namespace SnoopRatt.App.Utilities
 
             string statuses = string.Join('\n', items.Select(x => x.Status.ToString()));
             string periods = string.Join('\n', items.Select(x => x.Period.ToString()));
-            string times = string.Join('\n', items.Select(x => $"[{x.TimeStamp.ToString("MM-dd-yyyy hh:mm:ss tt")}]({x.Url})"));
+            string times = string.Join('\n', items.Select(x => $"[{x.TimeStamp.ToString("MM-dd-yyyy hh:mm:ss.fff tt")}]({x.Url})"));
 
             embed.AddField("Time", times, true);
             embed.AddField("Period", periods, true);
