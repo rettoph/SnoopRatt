@@ -30,7 +30,7 @@ namespace SnoopRatt.App.Utilities
         private readonly SocketGuildUser _socketUser;
         private readonly UserService _users;
 
-        public const int PingsPerPage = 9;
+        public const int PingsPerPage = 8;
         public const int StaticPages = 2;
 
         public override int Max => StaticPages + (int)Math.Ceiling((this.Filtered().Count() / (float)PingsPerPage));
